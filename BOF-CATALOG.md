@@ -30,6 +30,7 @@ These repositories contain a variety of BOFs covering multiple functions, often 
 | [PostEx-Arsenal](https://github.com/entropy-z/PostEx-Arsenal) | Arsenal of post-exploitation BOF modules including BrowserDump, Clipdump, LateralMov, Screenshot, Slackdump, and more | ![](https://img.shields.io/github/stars/entropy-z/PostEx-Arsenal?label=&style=flat) | ![](https://img.shields.io/github/last-commit/entropy-z/PostEx-Arsenal?label=&style=flat) |
 | [BusyBOF](https://github.com/cmprmsd/BusyBOF) | Busybox-style BOFs for *nix post-exploitation — reimplements Unix utilities for stripped environments (Docker, K8s, minimal VMs) | ![](https://img.shields.io/github/stars/cmprmsd/BusyBOF?label=&style=flat) | ![](https://img.shields.io/github/last-commit/cmprmsd/BusyBOF?label=&style=flat) |
 | [bofATT](https://github.com/technoherder/bofATT) | Create BOFs for All The Things | ![](https://img.shields.io/github/stars/technoherder/bofATT?label=&style=flat) | ![](https://img.shields.io/github/last-commit/technoherder/bofATT?label=&style=flat) |
+| [OpenBOF](https://github.com/WKL-Sec/OpenBOF) | Community-maintained collection of Beacon Object Files for the offensive-security community. | ![](https://img.shields.io/github/stars/WKL-Sec/OpenBOF?label=&style=flat) | ![](https://img.shields.io/github/last-commit/WKL-Sec/OpenBOF?label=&style=flat) |
 
 ---
 
