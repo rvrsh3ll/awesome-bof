@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "total_bofs": 1814,
-    "total_repos": 498,
-    "repos_parsed": 469,
+    "total_bofs": 1906,
+    "total_repos": 504,
+    "repos_parsed": 475,
     "format_stats": {
       "cna": 319,
       "directory_structure": 498,
@@ -1923,7 +1923,7 @@
     },
     {
       "name": "fodhelper",
-      "description": "The \u201cfodhelper UAC bypass\u201d is a well-known Windows privilege-escalation technique that abuses the auto-elevated Microsoft binary fodhelper.exe to bypass normal User Account Control (UAC) prompts.",
+      "description": "The “fodhelper UAC bypass” is a well-known Windows privilege-escalation technique that abuses the auto-elevated Microsoft binary fodhelper.exe to bypass normal User Account Control (UAC) prompts.",
       "repository": "https://github.com/mooolight/Beacon-Object-Files",
       "source_file": "README.md",
       "source_format": "readme_table",
@@ -6882,7 +6882,7 @@
     },
     {
       "name": "getcmdline",
-      "description": "BOF to extract the full command-line arguments used to launch a specific process by its name (e.g., notepad.exe), from another process\u2019s memory.",
+      "description": "BOF to extract the full command-line arguments used to launch a specific process by its name (e.g., notepad.exe), from another process’s memory.",
       "repository": "https://github.com/Mr-Un1k0d3r/BOFCode",
       "source_file": "README.md",
       "source_format": "readme_table",
@@ -8069,7 +8069,7 @@
       "repository_last_updated": "2026-08-05"
     },
     {
-      "name": "coffexec /~/MSSQL-BOF-BRC4/SQL/query/query.x64.o \"SELECT name,value FROM sys.configurations WHERE n\u2026",
+      "name": "coffexec /~/MSSQL-BOF-BRC4/SQL/query/query.x64.o \"SELECT name,value FROM sys.configurations WHERE n…",
       "description": "Execute a custom SQL query",
       "repository": "https://github.com/he1sel/MSSQL-BOF-BRC4",
       "source_file": "README.md",
@@ -8232,7 +8232,7 @@
     },
     {
       "name": "pslist",
-      "description": "Process list \u2014 PID, PPID, thread count, image name",
+      "description": "Process list — PID, PPID, thread count, image name",
       "repository": "https://github.com/KolbySnider/Remnant",
       "source_file": "README.md",
       "source_format": "readme_table",
@@ -8907,7 +8907,7 @@
     },
     {
       "name": "scshell.o",
-      "description": "SCShell \u2014 hijack existing service binary path",
+      "description": "SCShell — hijack existing service binary path",
       "repository": "https://github.com/hrdebraj/Apex",
       "source_file": "README.md",
       "source_format": "readme_table",
@@ -8997,7 +8997,7 @@
     },
     {
       "name": "beacon",
-      "description": "\u5728\u5176\u4ed6\u673a\u5668\u4e0a\u6784\u5efa\u672c\u9879\u76ee\uff0c\u9700\u8981\u5148\u5b89\u88c5\u4e0b\u9762\u7684\u73af\u5883\u3002",
+      "description": "在其他机器上构建本项目，需要先安装下面的环境。",
       "repository": "https://github.com/onedays12/Iris",
       "source_file": "beacon.c",
       "source_format": "directory_structure",
@@ -9716,7 +9716,7 @@
       "repository_last_updated": "2026-01-02"
     },
     {
-      "name": "./Source/PIC-Loader/CP-Dist/link ./Source/PIC-Loader/loader.spec ./Source/Modules/whoami.x64.o ./Bi\u2026",
+      "name": "./Source/PIC-Loader/CP-Dist/link ./Source/PIC-Loader/loader.spec ./Source/Modules/whoami.x64.o ./Bi…",
       "description": "",
       "repository": "https://github.com/pard0p/Remote-BOF-Runner",
       "source_file": "remote-bof-runner.py",
@@ -9725,7 +9725,7 @@
       "repository_last_updated": "2026-01-02"
     },
     {
-      "name": "./Source/PIC-Loader/CP-Dist/link ./Source/PIC-Loader/loader.spec ./Source/Modules/ipconfig.x64.o ./\u2026",
+      "name": "./Source/PIC-Loader/CP-Dist/link ./Source/PIC-Loader/loader.spec ./Source/Modules/ipconfig.x64.o ./…",
       "description": "",
       "repository": "https://github.com/pard0p/Remote-BOF-Runner",
       "source_file": "remote-bof-runner.py",
@@ -9987,7 +9987,7 @@
     },
     {
       "name": "set-password-auth",
-      "description": "A BOF for AdaptixC2 / LDAP-BOF that resets an AD user's password using the **current beacon token** \u2014 no explicit credentials required.",
+      "description": "A BOF for AdaptixC2 / LDAP-BOF that resets an AD user's password using the **current beacon token** — no explicit credentials required.",
       "repository": "https://github.com/0xGunrunner/Set-Password-Auth-BOF",
       "source_file": "set-password-auth.c",
       "source_format": "directory_structure",
@@ -9996,7 +9996,7 @@
     },
     {
       "name": "osep_enum",
-      "description": "A Beacon Object File (BOF) port of `OSEP_enum.ps1` \u2014 a comprehensive local host enumeration sweep designed for post-exploitation. Part of the SAL-BOF collecti",
+      "description": "A Beacon Object File (BOF) port of `OSEP_enum.ps1` — a comprehensive local host enumeration sweep designed for post-exploitation. Part of the SAL-BOF collecti",
       "repository": "https://github.com/0xGunrunner/OSEP-ENUM",
       "source_file": "osep_enum.c",
       "source_format": "directory_structure",
@@ -11157,7 +11157,7 @@
     },
     {
       "name": "ChromeHistory",
-      "description": "\u5b9e\u73b0\u4e86\u6700\u57fa\u672c\u7684\u529f\u80fd",
+      "description": "实现了最基本的功能",
       "repository": "https://github.com/mabangde/ChromeHistory_bof",
       "source_file": "ChromeHistory_bof.c",
       "source_format": "directory_structure",
@@ -11391,7 +11391,7 @@
     },
     {
       "name": "certdump",
-      "description": "**CertDump** is a Beacon Object File (BOF) for dumping certificates (and, when possible, private keys) from the target\u2019s `CurrentUser\\My` and `LocalMachine\\My` stores. It was written for Cobalt Strike",
+      "description": "**CertDump** is a Beacon Object File (BOF) for dumping certificates (and, when possible, private keys) from the target’s `CurrentUser\\My` and `LocalMachine\\My` stores. It was written for Cobalt Strike",
       "repository": "https://github.com/elephacking/certdump",
       "source_file": "certdump.x64.o",
       "source_format": "directory_structure",
@@ -11778,7 +11778,7 @@
     },
     {
       "name": "Source",
-      "description": "\u6e17\u900f\u6d4b\u8bd5\u4eba\u5458\u53ef\u4ee5\u901a\u8fc7\u6b64BOF\uff0c\u5c06\u975e\u6258\u7ba1 Windows\u53ef\u6267\u884c\u6587\u4ef6\u52a0\u8f7d\u5230Beacon\u5185\u5b58\u4e2d\u5e76\u6267\u884c\u5b83\u4eec\uff0c\u68c0\u7d22\u8f93\u51fa\u5e76\u5c06\u5176\u5448\u73b0\u5728 Beacon \u63a7\u5236\u53f0\u4e2d\u3002",
+      "description": "渗透测试人员可以通过此BOF，将非托管 Windows可执行文件加载到Beacon内存中并执行它们，检索输出并将其呈现在 Beacon 控制台中。",
       "repository": "https://github.com/7uckzero/Inline-Run-PE",
       "source_file": "Source.c",
       "source_format": "directory_structure",
@@ -13524,7 +13524,7 @@
     },
     {
       "name": "bof_net_user",
-      "description": "\u4f7f\u7528windows api\u6dfb\u52a0\u7528\u6237\uff0c\u53ef\u7528\u4e8enet\u65e0\u6cd5\u4f7f\u7528\u65f6",
+      "description": "使用windows api添加用户，可用于net无法使用时",
       "repository": "https://github.com/lengjibo/NetUser",
       "source_file": "bof_net_user.c",
       "source_format": "directory_structure",
@@ -13614,7 +13614,7 @@
     },
     {
       "name": "GetWeChatBOF",
-      "description": "\u7528\u4e8e\u83b7\u53d6\u5fae\u4fe1\u4fe1\u606f\u7684BOF\u6d4b\u8bd5\u6587\u4ef6",
+      "description": "用于获取微信信息的BOF测试文件",
       "repository": "https://github.com/pyroxenites/BOFTools",
       "source_file": "GetWeChatBOF.c",
       "source_format": "directory_structure",
@@ -13929,7 +13929,7 @@
     },
     {
       "name": "svcctl_c",
-      "description": "\u4e00\u4e2a\u666e\u901a\u7684BOF",
+      "description": "一个普通的BOF",
       "repository": "https://github.com/BambiZombie/terminator_bof",
       "source_file": "svcctl_c.c",
       "source_format": "directory_structure",
@@ -15207,7 +15207,7 @@
     },
     {
       "name": "cve-2024-26229",
-      "description": "Beacon Object File implementation of CVE-2024-26229 \u2014 Windows CSC driver local privilege escalation via DKOM token theft.",
+      "description": "Beacon Object File implementation of CVE-2024-26229 — Windows CSC driver local privilege escalation via DKOM token theft.",
       "repository": "https://github.com/0xGunrunner/CVE-2024-26229-BOF",
       "source_file": "cve-2024-26229.c",
       "source_format": "directory_structure",
@@ -15459,7 +15459,7 @@
     },
     {
       "name": "calc_popup",
-      "description": "Hello World BOF \u2014 pops calc.exe via KERNEL32!WinExec",
+      "description": "Hello World BOF — pops calc.exe via KERNEL32!WinExec",
       "repository": "https://github.com/incendiary/CLion-nova-bof-template",
       "source_file": "calc_popup.cna",
       "source_format": "cna",
@@ -15999,7 +15999,7 @@
     },
     {
       "name": "CoffLoader",
-      "description": "BOF\u4f7f\u7528\u7684\u662f \u7f16\u8bd1\u540e\u672a\u88ab\u94fe\u63a5\u7684.o\u76ee\u6807\u6587\u4ef6\uff0cCOFF\u683c\u5f0f",
+      "description": "BOF使用的是 编译后未被链接的.o目标文件，COFF格式",
       "repository": "https://github.com/anysaaa/BOF-Loader",
       "source_file": "CoffLoader.c",
       "source_format": "directory_structure",
@@ -16338,6 +16338,834 @@
       "source_format": "directory_structure",
       "repository_stars": 60,
       "repository_last_updated": "2026-04-26"
+    },
+    {
+      "name": "tmb_probe",
+      "description": "tmb_probe",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_finalpolicy [--clean]",
+      "description": "tmb_finalpolicy [--clean]",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_sip_hijack [--sip-types pe,ps1,msi] [--all-sips] [--sac] [--clean]",
+      "description": "tmb_sip_hijack [--sip-types pe,ps1,msi] [--all-sips] [--sac] [--clean]",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_wow64_hijack [--sip-types all] [--clean]",
+      "description": "tmb_wow64_hijack [--sip-types all] [--clean]",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_custom_provider {GUID} [--clean]",
+      "description": "tmb_custom_provider {GUID} [--clean]",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_sip_exec install --dll  --guid",
+      "description": "tmb_sip_exec install --dll  --guid",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_sip_exec remove --guid",
+      "description": "tmb_sip_exec remove --guid",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_sipexec_jump   [opts]",
+      "description": "tmb_sipexec_jump  [opts]",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_sipexec_exec   [opts]",
+      "description": "tmb_sipexec_exec  [opts]",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_clean --sip / --finalpolicy / --all",
+      "description": "tmb_clean --sip / --finalpolicy / --all",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_formatghost --oid  --dll  [--clean]",
+      "description": "tmb_formatghost --oid  --dll  [--clean]",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_finalpolicy",
+      "description": "Redirect FinalPolicy to SoftpubCleanup (system-wide trust bypass)",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "tmb.cna",
+      "source_format": "cna",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_sip_hijack",
+      "description": "Install SIP persistence (redirect VerifyIndirectData to DbgUiContinue)",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "tmb.cna",
+      "source_format": "cna",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_wow64_hijack",
+      "description": "SIP hijack to WOW6432Node only (32-bit callers, 64-bit registry clean)",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "tmb.cna",
+      "source_format": "cna",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_custom_provider",
+      "description": "Register a custom action GUID with FinalPolicy = SoftpubCleanup",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "tmb.cna",
+      "source_format": "cna",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_sip_exec",
+      "description": "Install payload DLL on SIP execution surface (loads in any WVT caller)",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "tmb.cna",
+      "source_format": "cna",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_clean",
+      "description": "Remove all TrustMeBro persistence artifacts",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "tmb.cna",
+      "source_format": "cna",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_formatghost",
+      "description": "Register CryptDllFormatObject OID handler (analyst-triggered persistence)",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "tmb.cna",
+      "source_format": "cna",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_sipexec_jump",
+      "description": "Lateral movement via WinVerifyTrust FinalPolicy hijack (DLL loads in wmiprvse.exe)",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "tmb.cna",
+      "source_format": "cna",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tmb_sipexec_exec",
+      "description": "Remote command execution via WinVerifyTrust FinalPolicy hijack + named pipe",
+      "repository": "https://github.com/KriyosArcane/TrustMeBOF",
+      "source_file": "tmb.cna",
+      "source_format": "cna",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "adcs_enum",
+      "description": "Enumerate CAs and templates in the AD using Win32 functions",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "adcs_enum_com",
+      "description": "Enumerate CAs and templates in the AD using ICertConfig COM object",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "adcs_enum_com2",
+      "description": "Enumerate CAs and templates in the AD using IX509PolicyServerListManager COM object",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "adv_audit_policies",
+      "description": "Retrieve advanced security audit policies",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "arp",
+      "description": "List ARP table",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "cacls",
+      "description": "List user permissions for the specified file, wildcards supported",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "dir",
+      "description": "List files in a directory. Supports wildcards (e.g. \"C:\\Windows\\S*\") unlike the CobaltStrike ls command",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "driversigs",
+      "description": "Enumerate installed services Imagepaths to check the signing cert against known AV/EDR vendors",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "enum_filter_driver",
+      "description": "Enumerate filter drivers",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "enumLocalSessions",
+      "description": "Enumerate currently attached user sessions both local and over RDP",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "env",
+      "description": "List process environment variables",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "findLoadedModule",
+      "description": "Find what processes \\modulepart\\ are loaded into, optionally searching just \\procnamepart\\",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "get_dpapi_system",
+      "description": "Get the DPAPI_SYSTEM key and bootkey",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "get_password_policy",
+      "description": "Get target server or domain's configured password policy and lockouts",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "get_session_info",
+      "description": "prints out information related to the current users logon session",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "ipconfig",
+      "description": "List IPv4 address, hostname, and DNS server",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "ldapsearch",
+      "description": "Execute LDAP searches (NOTE: specify *,ntsecuritydescriptor as attribute parameter if you want all attributes + base64 encoded ACL of the objects, this can then be resolved using BOFHound. Could possibly break pagination, although everything seemed fine during testing.)",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "listdns",
+      "description": "List DNS cache entries. Attempt to query and resolve each",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "list_firewall_rules",
+      "description": "List Windows firewall rules",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "listmods",
+      "description": "List process modules (DLL). Target current process if PID is empty. Complement to driversigs to determine if our process was injected by AV/EDR",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "listpipes",
+      "description": "List named pipes",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "locale",
+      "description": "List system locale language, locale ID, date, time, and country",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netGroupList",
+      "description": "List groups from the default or specified domain",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netGroupListMembers",
+      "description": "List group members from the default or specified domain",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netLocalGroupList",
+      "description": "List local groups from the local or specified computer",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netLocalGroupListMembers",
+      "description": "List local groups from the local or specified computer",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netLocalGroupListMembers2",
+      "description": "Modified version of netLocalGroupListMembers that supports BOFHound",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netloggedon",
+      "description": "Return users logged on the local or remote computer",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netloggedon2",
+      "description": "Modified version of netloggedon that supports BOFHound",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netsession",
+      "description": "Enumerate sessions on the local or specified computer",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netsession2",
+      "description": "Modified version of netsession that supports BOFHound",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netshares",
+      "description": "List shares on the local or remote computer",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netstat",
+      "description": "TCP and UDP IPv4 listing ports",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "nettime",
+      "description": "Display time on remote computer",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netuptime",
+      "description": "Return information about the boot time on the local or remote computer",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netuser",
+      "description": "Get info about specific user. Pull from domain if a domainname is specified",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netuse_add",
+      "description": "Bind a new connection to a remote computer",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netuse_delete",
+      "description": "\\",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netuse_list",
+      "description": "List all bound share resources or info about target local resource",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "netview",
+      "description": "List reachable computers in the current domain",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "nslookup",
+      "description": "Make a DNS query.  DNS server is the server you want to query (do not specify or 0 for default) record type is something like A, AAAA, or ANY. Some situations are limited due to observed crashes",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "md5",
+      "description": "Hash filename using md5",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "probe",
+      "description": "Check if a specific port is open",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "regsession",
+      "description": "Return logged on user SIDs by enumerating HKEY_USERS. BOFHound compatible",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "reg_query",
+      "description": "Query a registry value or enumerate a single key",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "reg_query_recursive",
+      "description": "Recursively enumerate a key starting at path",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "resources",
+      "description": "List memory usage and available disk space on the primary hard drive",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "routeprint",
+      "description": "List IPv4 routes",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "sc_enum",
+      "description": "Enumerate services for qc, query, qfailure, and qtriggers info",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "sc_qc",
+      "description": "sc qc impelmentation in BOF",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "sc_qdescription",
+      "description": "sc qdescription implementation in BOF",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "sc_qfailure",
+      "description": "Query a service for failure conditions",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "sc_qtriggerinfo",
+      "description": "Query a service for trigger conditions",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "sc_query",
+      "description": "sc query implementation in BOF",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "schtasksenum",
+      "description": "Enumerate scheduled tasks on the local or remote computer",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "schtasksquery",
+      "description": "Query the given task on the local or remote computer",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "sha1",
+      "description": "Hash filename using sha1",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "sha256",
+      "description": "Hash filename using sha256",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "tasklist",
+      "description": "List running processes including PID, PPID, and ComandLine (uses wmi)",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "uptime",
+      "description": "List system boot time and how long it has been running",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "useridletime",
+      "description": "Shows how long the user as been idle, displayed in seconds, minutes, hours and days.",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "vssenum",
+      "description": "Enumerate Shadow Copies on some Server 2012+ servers",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "whoami",
+      "description": "List whoami /all",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "windowlist",
+      "description": "List visible windows in the current user session",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "wmi_query",
+      "description": "Run a wmi query and display results in CSV format",
+      "repository": "https://github.com/sliverarmory/Situational-Awareness-BOFs",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "info",
+      "description": "",
+      "repository": "https://github.com/lineeralgebra/enum-bof",
+      "source_file": "info.cna",
+      "source_format": "cna",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "enum",
+      "description": "Unified AD enumeration BOF — users/computers/groups/kerberoastable/disabled/asreproastable",
+      "repository": "https://github.com/lineeralgebra/enum-bof",
+      "source_file": "enum.cna",
+      "source_format": "cna",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "aws [region]",
+      "description": "AWS EC2 metadata + S3 enumeration. Region defaults to us-east-1.",
+      "repository": "https://github.com/mynksh/cloudmeta-bof",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "azure [resource]",
+      "description": "Azure Managed Identity token. If resource is omitted or equals https://management.azure.com, it also enumerates subscriptions, storage accounts, and containers. For any other resource, only the token is printed.",
+      "repository": "https://github.com/mynksh/cloudmeta-bof",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "check",
+      "description": "Tests connectivity to 169.254.169.254.",
+      "repository": "https://github.com/mynksh/cloudmeta-bof",
+      "source_file": "README.md",
+      "source_format": "readme_table",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "main",
+      "description": "A BOF based on EnableSeLoadDriverPrivilege.cpp.",
+      "repository": "https://github.com/jsundin/capcom-bof",
+      "source_file": "main.c",
+      "source_format": "directory_structure",
+      "repository_stars": 0,
+      "repository_last_updated": ""
+    },
+    {
+      "name": "dutchoven",
+      "description": "Apply a short application-scoped network brownout pulse",
+      "repository": "https://github.com/loosehose/DutchOven",
+      "source_file": "dutchoven.cna",
+      "source_format": "cna",
+      "repository_stars": 0,
+      "repository_last_updated": ""
     }
   ]
 }
