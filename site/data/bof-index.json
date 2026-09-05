@@ -1,18 +1,54 @@
 {
   "metadata": {
-    "total_bofs": 1908,
-    "total_repos": 504,
-    "repos_parsed": 475,
+    "total_bofs": 1912,
+    "total_repos": 508,
+    "repos_parsed": 479,
     "format_stats": {
-      "cna": 323,
-      "directory_structure": 504,
+      "cna": 327,
+      "directory_structure": 508,
       "readme_table": 37,
-      "havoc_py": 36,
+      "havoc_py": 37,
       "stage1_py": 14,
       "readme_bullet": 15
     }
   },
   "bofs": [
+    {
+      "name": "bof_enumdepend",
+      "description": "Recursively enumerate active service dependents",
+      "repository": "https://github.com/antroguy/enumdepend-bof",
+      "source_file": "enumdepend.cna",
+      "source_format": "cna",
+      "repository_stars": 0,
+      "repository_last_updated": "2026-08-25"
+    },
+    {
+      "name": "scriptsentry",
+      "description": "Find misconfigured and dangerous AD logon scripts (ScriptSentry)",
+      "repository": "https://github.com/An0nUD4Y/ScriptSentry-BOF",
+      "source_file": "scriptsentry.cna",
+      "source_format": "cna",
+      "repository_stars": 1,
+      "repository_last_updated": "2026-08-24"
+    },
+    {
+      "name": "PoolPartyBof",
+      "description": "Thread-pool injection, variants 4-8",
+      "repository": "https://github.com/An0nUD4Y/PoolParty-BOF",
+      "source_file": "PoolPartyBof.cna",
+      "source_format": "cna",
+      "repository_stars": 1,
+      "repository_last_updated": "2026-08-24"
+    },
+    {
+      "name": "zipper",
+      "description": "Create a ZIP64+DEFLATE archive on the target from files and directories",
+      "repository": "https://github.com/An0nUD4Y/Zipper-BOF",
+      "source_file": "zipper.cna",
+      "source_format": "cna",
+      "repository_stars": 1,
+      "repository_last_updated": "2026-08-20"
+    },
     {
       "name": "bof_ipconfig",
       "description": "Display network adapter information",
@@ -1923,7 +1959,7 @@
     },
     {
       "name": "fodhelper",
-      "description": "The \u201cfodhelper UAC bypass\u201d is a well-known Windows privilege-escalation technique that abuses the auto-elevated Microsoft binary fodhelper.exe to bypass normal User Account Control (UAC) prompts.",
+      "description": "The “fodhelper UAC bypass” is a well-known Windows privilege-escalation technique that abuses the auto-elevated Microsoft binary fodhelper.exe to bypass normal User Account Control (UAC) prompts.",
       "repository": "https://github.com/mooolight/Beacon-Object-Files",
       "source_file": "README.md",
       "source_format": "readme_table",
@@ -7656,7 +7692,7 @@
     },
     {
       "name": "getcmdline",
-      "description": "BOF to extract the full command-line arguments used to launch a specific process by its name (e.g., notepad.exe), from another process\u2019s memory.",
+      "description": "BOF to extract the full command-line arguments used to launch a specific process by its name (e.g., notepad.exe), from another process’s memory.",
       "repository": "https://github.com/Mr-Un1k0d3r/BOFCode",
       "source_file": "README.md",
       "source_format": "readme_table",
@@ -8826,7 +8862,7 @@
     },
     {
       "name": "enum",
-      "description": "Unified AD enumeration BOF \u2014 users/computers/groups/kerberoastable/disabled/asreproastable",
+      "description": "Unified AD enumeration BOF — users/computers/groups/kerberoastable/disabled/asreproastable",
       "repository": "https://github.com/lineeralgebra/enum-bof",
       "source_file": "enum.cna",
       "source_format": "cna",
@@ -8861,7 +8897,7 @@
       "repository_last_updated": "2026-08-05"
     },
     {
-      "name": "coffexec /~/MSSQL-BOF-BRC4/SQL/query/query.x64.o \"SELECT name,value FROM sys.configurations WHERE n\u2026",
+      "name": "coffexec /~/MSSQL-BOF-BRC4/SQL/query/query.x64.o \"SELECT name,value FROM sys.configurations WHERE n…",
       "description": "Execute a custom SQL query",
       "repository": "https://github.com/he1sel/MSSQL-BOF-BRC4",
       "source_file": "README.md",
@@ -9024,7 +9060,7 @@
     },
     {
       "name": "pslist",
-      "description": "Process list \u2014 PID, PPID, thread count, image name",
+      "description": "Process list — PID, PPID, thread count, image name",
       "repository": "https://github.com/KolbySnider/Remnant",
       "source_file": "README.md",
       "source_format": "readme_table",
@@ -9699,7 +9735,7 @@
     },
     {
       "name": "scshell.o",
-      "description": "SCShell \u2014 hijack existing service binary path",
+      "description": "SCShell — hijack existing service binary path",
       "repository": "https://github.com/hrdebraj/Apex",
       "source_file": "README.md",
       "source_format": "readme_table",
@@ -9780,7 +9816,7 @@
     },
     {
       "name": "elf_bof",
-      "description": "\u4e2d\u6587 \u00b7 English",
+      "description": "中文 · English",
       "repository": "https://github.com/onedays12/Iris",
       "source_file": "sleep_loop.c",
       "source_format": "directory_structure",
@@ -9789,7 +9825,7 @@
     },
     {
       "name": "beacon",
-      "description": "\u5728\u5176\u4ed6\u673a\u5668\u4e0a\u6784\u5efa\u672c\u9879\u76ee\uff0c\u9700\u8981\u5148\u5b89\u88c5\u4e0b\u9762\u7684\u73af\u5883\u3002",
+      "description": "在其他机器上构建本项目，需要先安装下面的环境。",
       "repository": "https://github.com/onedays12/Iris",
       "source_file": "beacon.c",
       "source_format": "directory_structure",
@@ -10517,7 +10553,7 @@
       "repository_last_updated": "2026-01-02"
     },
     {
-      "name": "./Source/PIC-Loader/CP-Dist/link ./Source/PIC-Loader/loader.spec ./Source/Modules/whoami.x64.o ./Bi\u2026",
+      "name": "./Source/PIC-Loader/CP-Dist/link ./Source/PIC-Loader/loader.spec ./Source/Modules/whoami.x64.o ./Bi…",
       "description": "",
       "repository": "https://github.com/pard0p/Remote-BOF-Runner",
       "source_file": "remote-bof-runner.py",
@@ -10526,7 +10562,7 @@
       "repository_last_updated": "2026-01-02"
     },
     {
-      "name": "./Source/PIC-Loader/CP-Dist/link ./Source/PIC-Loader/loader.spec ./Source/Modules/ipconfig.x64.o ./\u2026",
+      "name": "./Source/PIC-Loader/CP-Dist/link ./Source/PIC-Loader/loader.spec ./Source/Modules/ipconfig.x64.o ./…",
       "description": "",
       "repository": "https://github.com/pard0p/Remote-BOF-Runner",
       "source_file": "remote-bof-runner.py",
@@ -10788,7 +10824,7 @@
     },
     {
       "name": "set-password-auth",
-      "description": "A BOF for AdaptixC2 / LDAP-BOF that resets an AD user's password using the **current beacon token** \u2014 no explicit credentials required.",
+      "description": "A BOF for AdaptixC2 / LDAP-BOF that resets an AD user's password using the **current beacon token** — no explicit credentials required.",
       "repository": "https://github.com/0xGunrunner/Set-Password-Auth-BOF",
       "source_file": "set-password-auth.c",
       "source_format": "directory_structure",
@@ -10797,7 +10833,7 @@
     },
     {
       "name": "osep_enum",
-      "description": "A Beacon Object File (BOF) port of `OSEP_enum.ps1` \u2014 a comprehensive local host enumeration sweep designed for post-exploitation. Part of the SAL-BOF collecti",
+      "description": "A Beacon Object File (BOF) port of `OSEP_enum.ps1` — a comprehensive local host enumeration sweep designed for post-exploitation. Part of the SAL-BOF collecti",
       "repository": "https://github.com/0xGunrunner/OSEP-ENUM",
       "source_file": "osep_enum.c",
       "source_format": "directory_structure",
@@ -11958,7 +11994,7 @@
     },
     {
       "name": "ChromeHistory",
-      "description": "\u5b9e\u73b0\u4e86\u6700\u57fa\u672c\u7684\u529f\u80fd",
+      "description": "实现了最基本的功能",
       "repository": "https://github.com/mabangde/ChromeHistory_bof",
       "source_file": "ChromeHistory_bof.c",
       "source_format": "directory_structure",
@@ -12192,7 +12228,7 @@
     },
     {
       "name": "certdump",
-      "description": "**CertDump** is a Beacon Object File (BOF) for dumping certificates (and, when possible, private keys) from the target\u2019s `CurrentUser\\My` and `LocalMachine\\My` stores. It was written for Cobalt Strike",
+      "description": "**CertDump** is a Beacon Object File (BOF) for dumping certificates (and, when possible, private keys) from the target’s `CurrentUser\\My` and `LocalMachine\\My` stores. It was written for Cobalt Strike",
       "repository": "https://github.com/elephacking/certdump",
       "source_file": "certdump.x64.o",
       "source_format": "directory_structure",
@@ -12579,7 +12615,7 @@
     },
     {
       "name": "Source",
-      "description": "\u6e17\u900f\u6d4b\u8bd5\u4eba\u5458\u53ef\u4ee5\u901a\u8fc7\u6b64BOF\uff0c\u5c06\u975e\u6258\u7ba1 Windows\u53ef\u6267\u884c\u6587\u4ef6\u52a0\u8f7d\u5230Beacon\u5185\u5b58\u4e2d\u5e76\u6267\u884c\u5b83\u4eec\uff0c\u68c0\u7d22\u8f93\u51fa\u5e76\u5c06\u5176\u5448\u73b0\u5728 Beacon \u63a7\u5236\u53f0\u4e2d\u3002",
+      "description": "渗透测试人员可以通过此BOF，将非托管 Windows可执行文件加载到Beacon内存中并执行它们，检索输出并将其呈现在 Beacon 控制台中。",
       "repository": "https://github.com/7uckzero/Inline-Run-PE",
       "source_file": "Source.c",
       "source_format": "directory_structure",
@@ -14325,7 +14361,7 @@
     },
     {
       "name": "bof_net_user",
-      "description": "\u4f7f\u7528windows api\u6dfb\u52a0\u7528\u6237\uff0c\u53ef\u7528\u4e8enet\u65e0\u6cd5\u4f7f\u7528\u65f6",
+      "description": "使用windows api添加用户，可用于net无法使用时",
       "repository": "https://github.com/lengjibo/NetUser",
       "source_file": "bof_net_user.c",
       "source_format": "directory_structure",
@@ -14415,7 +14451,7 @@
     },
     {
       "name": "GetWeChatBOF",
-      "description": "\u7528\u4e8e\u83b7\u53d6\u5fae\u4fe1\u4fe1\u606f\u7684BOF\u6d4b\u8bd5\u6587\u4ef6",
+      "description": "用于获取微信信息的BOF测试文件",
       "repository": "https://github.com/pyroxenites/BOFTools",
       "source_file": "GetWeChatBOF.c",
       "source_format": "directory_structure",
@@ -14730,7 +14766,7 @@
     },
     {
       "name": "svcctl_c",
-      "description": "\u4e00\u4e2a\u666e\u901a\u7684BOF",
+      "description": "一个普通的BOF",
       "repository": "https://github.com/BambiZombie/terminator_bof",
       "source_file": "svcctl_c.c",
       "source_format": "directory_structure",
@@ -16008,7 +16044,7 @@
     },
     {
       "name": "cve-2024-26229",
-      "description": "Beacon Object File implementation of CVE-2024-26229 \u2014 Windows CSC driver local privilege escalation via DKOM token theft.",
+      "description": "Beacon Object File implementation of CVE-2024-26229 — Windows CSC driver local privilege escalation via DKOM token theft.",
       "repository": "https://github.com/0xGunrunner/CVE-2024-26229-BOF",
       "source_file": "cve-2024-26229.c",
       "source_format": "directory_structure",
@@ -16260,7 +16296,7 @@
     },
     {
       "name": "calc_popup",
-      "description": "Hello World BOF \u2014 pops calc.exe via KERNEL32!WinExec",
+      "description": "Hello World BOF — pops calc.exe via KERNEL32!WinExec",
       "repository": "https://github.com/incendiary/CLion-nova-bof-template",
       "source_file": "calc_popup.cna",
       "source_format": "cna",
@@ -16845,7 +16881,7 @@
     },
     {
       "name": "CoffLoader",
-      "description": "BOF\u4f7f\u7528\u7684\u662f \u7f16\u8bd1\u540e\u672a\u88ab\u94fe\u63a5\u7684.o\u76ee\u6807\u6587\u4ef6\uff0cCOFF\u683c\u5f0f",
+      "description": "BOF使用的是 编译后未被链接的.o目标文件，COFF格式",
       "repository": "https://github.com/anysaaa/BOF-Loader",
       "source_file": "CoffLoader.c",
       "source_format": "directory_structure",
