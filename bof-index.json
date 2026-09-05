@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "total_bofs": 1912,
-    "total_repos": 508,
-    "repos_parsed": 479,
+    "total_bofs": 1913,
+    "total_repos": 509,
+    "repos_parsed": 480,
     "format_stats": {
-      "cna": 327,
+      "cna": 328,
       "directory_structure": 508,
       "readme_table": 37,
       "havoc_py": 37,
@@ -13,6 +13,15 @@
     }
   },
   "bofs": [
+    {
+      "name": "msi_search",
+      "description": "Search cached MSI files in C:/Windows/Installer/",
+      "repository": "https://github.com/mandiant/msi-search",
+      "source_file": "msi_search.cna",
+      "source_format": "cna",
+      "repository_stars": 292,
+      "repository_last_updated": "2023-07-20"
+    },
     {
       "name": "bof_enumdepend",
       "description": "Recursively enumerate active service dependents",

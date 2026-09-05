@@ -400,6 +400,7 @@ This category includes single-purpose BOFs, specialized tools, loaders, template
 
 | Project | Description | Stars | Last commit |
 |---------|-------------|-------|-------------|
+| [msi-search](https://github.com/mandiant/msi-search) | Maps cached Windows Installer files to installed software. | ![](https://img.shields.io/github/stars/mandiant/msi-search?label=&style=flat) | ![](https://img.shields.io/github/last-commit/mandiant/msi-search?label=&style=flat) |
 | [enumdepend-bof](https://github.com/antroguy/enumdepend-bof) | Recursively enumerates active Windows services that depend on a target service. | ![](https://img.shields.io/github/stars/antroguy/enumdepend-bof?label=&style=flat) | ![](https://img.shields.io/github/last-commit/antroguy/enumdepend-bof?label=&style=flat) |
 | [ScriptSentry-BOF](https://github.com/An0nUD4Y/ScriptSentry-BOF) | Finds dangerous Active Directory logon scripts, credentials, missing shares, and unsafe permissions. | ![](https://img.shields.io/github/stars/An0nUD4Y/ScriptSentry-BOF?label=&style=flat) | ![](https://img.shields.io/github/last-commit/An0nUD4Y/ScriptSentry-BOF?label=&style=flat) |
 | [PoolParty-BOF](https://github.com/An0nUD4Y/PoolParty-BOF) | Cobalt Strike and Havoc BOFs for PoolParty process injection variants 4 through 8. | ![](https://img.shields.io/github/stars/An0nUD4Y/PoolParty-BOF?label=&style=flat) | ![](https://img.shields.io/github/last-commit/An0nUD4Y/PoolParty-BOF?label=&style=flat) |
